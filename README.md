@@ -1,7 +1,7 @@
-# java-web-maven-blade-api
+# java-web-bazel-blade-api
 
 ## Description
-A POC for blade framework rendering html page intercepted with middleware.
+A POC for blade framework.
 
 ## Tech stack
 - cors
@@ -10,7 +10,7 @@ A POC for blade framework rendering html page intercepted with middleware.
     - get, put, delete
 
 ## Docker stack
-- maven:3-openjdk-17
+- l.gcr.io/google/bazel:latest
 
 ## To run
 `sudo ./install.sh -u`
@@ -21,6 +21,3 @@ Available at http://localhost
 
 ## For help
 `sudo ./install.sh -h`
-
-## Credit
-- [Blade framework code](https://github.com/eugenp/tutorials/tree/master/web-modules/blade)
